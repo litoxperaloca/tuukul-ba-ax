@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación QS Reimagine Education Awards 2025 - PlaneaIA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+        .font-roboto { font-family: 'Roboto', sans-serif; }
+        .gradient-bg-header { background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); } /* Indigo to Purple */
+        .gradient-text { background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .section-header { border-bottom: 2px solid #e5e7eb; padding-bottom: 0.75rem; margin-bottom: 1.5rem; }
+        .card-shadow { box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); }
+        .list-icon { margin-right: 0.75rem; color: #6366f1; } /* Indigo-500 */
+
+        /* Estilos para impresión y PDF */
+        @media print {
+            body { background-color: #fff; color: #000; }
+            header, footer { background-color: #f3f4f6 !important; color: #000 !important; print-color-adjust: exact; }
+            .gradient-text { -webkit-print-color-adjust: exact; color: #4f46e5 !important; }
+            .bg-gray-100 { background-color: #f3f4f6 !important; print-color-adjust: exact; }
+            .card-shadow { box-shadow: none; border: 1px solid #e5e7eb; }
+            a { text-decoration: underline; color: #4f46e5; }
+            /* Ocultar elementos no deseados en la impresión si los hubiera, ej. botones de navegación */
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+
+    <!-- Header Section -->
+    <header class="gradient-bg-header text-white py-8 shadow-lg">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-2">
+                <i class="fas fa-award mr-3"></i> Aplicación QS Reimagine Education Awards 2025
+            </h1>
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-2">Proyecto</h2>
+            <p class="text-xl md:text-2xl font-light">PlaneaIA: Tu Aliado Inteligente en la Planificación Didáctica Inclusiva</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12">
+
+        <!-- Categoría y Vía de Aplicación -->
+        <section class="mb-12 p-8 bg-white rounded-lg card-shadow">
+            <h2 class="text-3xl font-bold gradient-text mb-6 section-header">
+                <i class="fas fa-th-large mr-3"></i> Categoría y Vía de Aplicación
+            </h2>
+
+            <article class="mb-8">
+                <h3 class="text-2xl font-semibold text-gray-700 mb-3 flex items-center">
+                    <i class="fas fa-tag list-icon"></i> Categoría Seleccionada: "Best Use of Generative AI"
+                </h3>
+                <p class="text-gray-600 leading-relaxed">
+                    Hemos seleccionado la categoría "Best Use of Generative AI" porque el núcleo innovador de PlaneaIA reside en el aprovechamiento directo de modelos GPT-like (a través de la API de OpenAI Assistants) para transformar la planificación de lecciones. Nuestra plataforma va más allá de la asistencia básica; utiliza la IA generativa para crear planificaciones didácticas completas, contextualizadas y personalizadas en tiempo real. Esto incluye la generación de estructuras de sesiones, actividades detalladas, indicadores de evaluación y adecuaciones específicas, todo ello basado en los datos proporcionados por el docente y el currículo oficial. La capacidad de la IA para procesar información compleja y generar contenido pedagógico coherente y de alta calidad es el diferenciador clave de nuestro proyecto.
+                </p>
+            </article>
+
+            <article>
+                <h3 class="text-2xl font-semibold text-gray-700 mb-3 flex items-center">
+                    <i class="fas fa-chart-line list-icon"></i> Vía de Aplicación Seleccionada: "Venture Early-Stage"
+                </h3>
+                <p class="text-gray-600 leading-relaxed">
+                    Consideramos que "Venture Early-Stage" es la vía más adecuada para PlaneaIA. Aunque el proyecto cuenta con una arquitectura robusta y funcionalidades avanzadas, se encuentra en una fase inicial de desarrollo y despliegue. Actualmente, no ha generado ingresos significativos ni ha recibido una inversión de capital de riesgo sustancial. Estamos en la etapa de desarrollo de producto, validación y preparación para el lanzamiento a una cohorte más amplia de usuarios, buscando socios y financiación para escalar nuestra solución.
+                </p>
+            </article>
+        </section>
+
+        <!-- Resumen Ejecutivo -->
+        <section class="mb-12 p-8 bg-gray-100 rounded-lg card-shadow">
+            <h2 class="text-3xl font-bold gradient-text mb-6 section-header">
+                <i class="fas fa-file-alt mr-3"></i> Resumen Ejecutivo
+            </h2>
+            <p class="text-gray-700 leading-relaxed text-lg">
+                **PlaneaIA** es una plataforma web innovadora que redefine la planificación didáctica para docentes de Educación Física y otras áreas, aprovechando el poder de la Inteligencia Artificial Generativa. Abordamos la ineficiencia y la falta de contextualización en la creación de planes de lecciones, ofreciendo una solución que ahorra tiempo y eleva la calidad pedagógica.
+            </p>
+            <p class="text-gray-700 leading-relaxed text-lg mt-4">
+                Nuestra plataforma permite a los administradores configurar dinámicamente países, centros educativos, planes de estudio y cursos, asegurando una adaptabilidad curricular global. Los docentes interactúan con formularios de planificación personalizados (creados con un constructor visual intuitivo) y gestionan grupos de estudiantes con necesidades de inclusión específicas. Toda esta información se integra en un <i>prompt</i> enriquecido que se envía a Asistentes de OpenAI especializados, "pre-entrenados" con el currículo oficial a través de la tecnología RAG (Retrieval Augmented Generation) y <i>Vector Stores</i>.
+            </p>
+            <p class="text-gray-700 leading-relaxed text-lg mt-4">
+                El resultado son planificaciones didácticas detalladas, coherentes con el currículo, profundamente contextualizadas para cada aula y adaptadas a las necesidades de inclusión. PlaneaIA libera a los docentes de la carga administrativa, permitiéndoles enfocarse en la enseñanza. Operamos bajo un modelo freemium, ofreciendo una planificación gratuita y créditos para uso continuo. Con autores en México y Uruguay, y asistencia de Gemini 2.5, PlaneaIA está lista para transformar la educación globalmente.
+            </p>
+        </section>
+
+        <!-- Sección Innovación -->
+        <section class="mb-12 p-8 bg-white rounded-lg card-shadow">
+            <h2 class="text-3xl font-bold gradient-text mb-6 section-header">
+                <i class="fas fa-lightbulb mr-3"></i> Innovación
+            </h2>
+
+            <article class="mb-8">
+                <h3 class="text-2xl font-semibold text-gray-700 mb-3 flex items-center">
+                    <i class="fas fa-question-circle list-icon"></i> ¿Qué problema resuelve su proyecto?
+                </h3>
+                <p class="text-gray-600 leading-relaxed">
+                    PlaneaIA resuelve un problema crítico y omnipresente en el sector educativo: la <strong>ineficiencia y la falta de contextualización en la planificación didáctica</strong>. Los docentes, a menudo sobrecargados, dedican incontables horas a crear planes de lecciones. Estos planes, si bien fundamentales, con frecuencia resultan genéricos, no se adaptan plenamente a las particularidades de su aula o a las necesidades específicas de los alumnos, y requieren una actualización constante ante cambios curriculares. La diversidad de sistemas educativos por país, la especificidad de los planes de estudio y la necesidad de integrar adecuaciones para la inclusión, añaden una complejidad que las herramientas tradicionales no logran abordar de manera escalable y eficiente. Esto lleva a una pérdida de tiempo valioso para el docente y, en última instancia, puede impactar la calidad de la enseñanza y el bienestar del educador.
+                </p>
+            </article>
+
+            <article>
+                <h3 class="text-2xl font-semibold text-gray-700 mb-3 flex items-center">
+                    <i class="fas fa-star list-icon"></i> ¿Qué hace que su proyecto se destaque y cómo se compara con otros?
+                </h3>
+                <p class="text-gray-600 leading-relaxed">
+                    PlaneaIA se destaca significativamente de las soluciones existentes por su <strong>profunda integración de IA generativa contextualizada y su arquitectura de gestión curricular dinámica</strong>.
+                </p>
+                <ul class="list-disc list-inside text-gray-600 mt-4 space-y-2">
+                    <li>
+                        <strong>IA Generativa Contextualizada y Curricularmente Alineada:</strong> A diferencia de herramientas básicas de <i>prompting</i> o plantillas estáticas, PlaneaIA utiliza la API de OpenAI Assistants con <strong>Retrieval Augmented Generation (RAG)</strong> y <i>Vector Stores</i>. Esto significa que nuestros asistentes de IA no solo "generan" texto, sino que lo hacen basándose en un conocimiento <strong>pre-cargado y específico del currículo oficial</strong> de cada curso (documentos, guías, etc.). Esto asegura que cada planificación generada sea no solo creativa, sino también <strong>precisa, actualizada y profundamente alineada</strong> con los estándares educativos del país y plan de estudio seleccionados.
+                    </li>
+                    <li>
+                        <strong>Flexibilidad y Adaptabilidad Curricular Sin Precedentes:</strong> Nuestra plataforma permite a los administradores definir y gestionar dinámicamente:
+                        <ul class="list-circle list-inside ml-6 mt-1 space-y-1">
+                            <li><strong>Países y Centros Educativos:</strong> Soporte para múltiples sistemas educativos.</li>
+                            <li><strong>Planes de Estudio:</strong> Adaptación a diferentes currículos y sus vigencias.</li>
+                            <li><strong>Cursos, Contenidos y Ejes Articuladores:</strong> Personalización granular del contenido pedagógico.</li>
+                            <li><strong>Formularios Dinámicos:</strong> Mediante un constructor visual, los administradores pueden crear interfaces de planificación personalizadas para cada curso. Esto elimina la necesidad de codificación para adaptar los formularios a nuevas necesidades, un cuello de botella común en otras plataformas.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Planificación Inclusiva Integrada:</strong> La capacidad de los docentes para asociar grupos de estudiantes y detallar sus necesidades educativas especiales (NEE) o requerimientos de inclusión directamente en el proceso de planificación es una característica distintiva. La IA incorpora estas observaciones en la generación del plan, proponiendo adecuaciones pedagógicas concretas, lo que fomenta una educación más equitativa y personalizada.
+                    </li>
+                    <li>
+                        <strong>Modelo de Negocio Accesible y Escalable:</strong> Ofrecemos una planificación gratuita inicial para facilitar la adopción, con un modelo de créditos transparente para el uso continuo. Esto lo hace accesible a una amplia gama de educadores, mientras sienta las bases para un crecimiento sostenible.
+                    </li>
+                </ul>
+                <p class="text-gray-600 leading-relaxed mt-4">
+                    En comparación, muchas herramientas existentes ofrecen plantillas rígidas, requieren que el usuario copie y pegue manualmente grandes volúmenes de texto curricular, o utilizan IA de forma genérica sin la profunda contextualización que PlaneaIA logra a través de sus asistentes especializados y su gestión curricular basada en datos. PlaneaIA no solo automatiza, sino que <strong>inteligentemente contextualiza</strong>, transformando la planificación de una tarea tediosa a un proceso ágil y de alta calidad.
+                </p>
+            </article>
+        </section>
+
+        <!-- Sección Impacto o Potencial Impacto -->
+        <section class="mb-12 p-8 bg-gray-100 rounded-lg card-shadow">
+            <h2 class="text-3xl font-bold gradient-text mb-6 section-header">
+                <i class="fas fa-bullseye mr-3"></i> Impacto o Potencial Impacto
+            </h2>
+
+            <article class="mb-8">
+                <h3 class="text-2xl font-semibold text-gray-700 mb-3 flex items-center">
+                    <i class="fas fa-users list-icon"></i> ¿Cómo resuelve su proyecto un problema y quién se beneficia de él?
+                </h3>
+                <p class="text-gray-600 leading-relaxed">
+                    PlaneaIA resuelve el problema de la planificación didáctica ineficiente y descontextualizada de múltiples maneras, beneficiando directamente a una amplia gama de actores en el ecosistema educativo:
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
+                    <div class="p-4 bg-white rounded-lg shadow-sm">
+                        <h4 class="font-bold text-lg mb-2 flex items-center"><i class="fas fa-chalkboard-teacher text-indigo-500 mr-2"></i> Docentes</h4>
+                        <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
+                            <li><strong>Ahorro de Tiempo Drástico:</strong> Reduce significativamente las horas dedicadas a la planificación.</li>
+                            <li><strong>Calidad y Confianza:</strong> Proporciona planificaciones didácticas de alta calidad, curriculares y contextualizadas.</li>
+                            <li><strong>Personalización y Inclusión:</strong> Facilita la creación de planes adaptados a las necesidades específicas de cada grupo y estudiante (incluyendo NEE).</li>
+                            <li><strong>Innovación al Alcance:</strong> Democratiza el acceso a herramientas de IA de vanguardia.</li>
+                        </ul>
+                    </div>
+                    <div class="p-4 bg-white rounded-lg shadow-sm">
+                        <h4 class="font-bold text-lg mb-2 flex items-center"><i class="fas fa-building text-purple-500 mr-2"></i> Autoridades Educativas y Directivas</h4>
+                        <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
+                            <li><strong>Alineación Curricular y Estandarización:</strong> Asegura la alineación curricular en toda la institución/región.</li>
+                            <li><strong>Optimización de Recursos:</strong> Libera tiempo docente para formación o interacción directa con alumnos.</li>
+                            <li><strong>Adaptabilidad y Agilidad:</strong> Permite integrar rápidamente nuevas reformas educativas.</li>
+                            <li><strong>Posicionamiento Innovador:</strong> Coloca a la institución a la vanguardia tecnológica.</li>
+                        </ul>
+                    </div>
+                    <div class="p-4 bg-white rounded-lg shadow-sm">
+                        <h4 class="font-bold text-lg mb-2 flex items-center"><i class="fas fa-user-graduate text-teal-500 mr-2"></i> Estudiantes</h4>
+                        <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
+                            <li><strong>Experiencia de Aprendizaje Mejorada:</strong> Reciben una enseñanza basada en planificaciones más coherentes y adaptadas.</li>
+                            <li><strong>Mayor Inclusión:</strong> Se benefician de adecuaciones pedagógicas pensadas específicamente para ellos.</li>
+                        </ul>
+                    </div>
+                    <div class="p-4 bg-white rounded-lg shadow-sm col-span-full md:col-span-1">
+                        <h4 class="font-bold text-lg mb-2 flex items-center"><i class="fas fa-hand-holding-usd text-green-500 mr-2"></i> Inversores y Socios Estratégicos</h4>
+                        <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
+                            <li>Acceso a un mercado EdTech en crecimiento con una solución altamente diferenciada y escalable.</li>
+                            <li>Oportunidad de invertir en un proyecto con un claro impacto social y educativo.</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <h3 class="text-2xl font-semibold text-gray-700 mb-3 flex items-center">
+                    <i class="fas fa-chart-bar list-icon"></i> ¿Cómo mejora su proyecto los resultados de aprendizaje y la empleabilidad?
+                </h3>
+                <ul class="list-disc list-inside text-gray-600 mt-4 space-y-2">
+                    <li>
+                        <strong>Mejora de la Calidad de la Enseñanza:</strong> Al proporcionar a los docentes planificaciones de alta calidad, contextualizadas y personalizadas, PlaneaIA les permite impartir clases más efectivas y atractivas. Una planificación sólida es la base para una enseñanza exitosa, lo que directamente impacta en la comprensión y retención de los estudiantes.
+                    </li>
+                    <li>
+                        <strong>Fomento de la Inclusión:</strong> La capacidad de integrar observaciones de NEE y adaptar las planificaciones para estudiantes específicos asegura que todos los alumnos reciban el apoyo necesario, reduciendo las barreras de aprendizaje y permitiendo que más estudiantes alcancen su máximo potencial. Esto es crucial para la equidad educativa y la preparación de todos los individuos para la vida y el trabajo.
+                    </li>
+                    <li>
+                        <strong>Liberación del Tiempo Docente para el Impacto Directo:</strong> Al automatizar y optimizar la planificación, los docentes tienen más tiempo para:
+                        <ul class="list-circle list-inside ml-6 mt-1 space-y-1">
+                            <li><strong>Interacción Directa con Alumnos:</strong> Ofrecer apoyo individualizado, responder preguntas y fomentar la participación.</li>
+                            <li><strong>Desarrollo Profesional:</strong> Participar en formaciones, investigar nuevas metodologías y mejorar continuamente sus habilidades pedagógicas.</li>
+                            <li><strong>Innovación en el Aula:</strong> Diseñar actividades más creativas y experimentales que no están limitadas por el tiempo de planificación.</li>
+                        </ul>
+                        Este tiempo liberado se traduce en una enseñanza más rica y un mayor enfoque en las necesidades de los estudiantes, lo que intrínsecamente mejora los resultados de aprendizaje.
+                    </li>
+                    <li>
+                        <strong>Preparación para Habilidades del Siglo XXI:</strong> Al facilitar la implementación de currículos actualizados y contextualizados (especialmente en Educación Física, que fomenta habilidades motrices, pensamiento crítico, cooperación, etc.), PlaneaIA contribuye a que los estudiantes desarrollen competencias esenciales para el futuro, incluyendo la resolución de problemas, la colaboración y la adaptabilidad, que son directamente relevantes para la empleabilidad.
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Sección Profundidad o Escalabilidad -->
+        <section class="mb-12 p-8 bg-white rounded-lg card-shadow">
+            <h2 class="text-3xl font-bold gradient-text mb-6 section-header">
+                <i class="fas fa-expand-alt mr-3"></i> Profundidad o Escalabilidad
+            </h2>
+            <p class="text-gray-600 leading-relaxed mb-4">
+                Hemos elegido enfocarnos en la <strong>Escalabilidad</strong>, ya que PlaneaIA está diseñada desde su concepción para expandirse a nivel global y adaptarse a diversos contextos educativos.
+            </p>
+
+            <article class="mb-8">
+                <h3 class="text-2xl font-semibold text-gray-700 mb-3 flex items-center">
+                    <i class="fas fa-globe-europe list-icon"></i> ¿Cómo puede crecer y expandirse su proyecto?
+                </h3>
+                <ul class="list-disc list-inside text-gray-600 mt-4 space-y-2">
+                    <li>
+                        <strong>Escalabilidad Geográfica (Multi-País y Multi-Centro):</strong>
+                        <ul class="list-circle list-inside ml-6 mt-1 space-y-1">
+                            <li><strong>Gestión de Datos Maestros:</strong> La base de datos permite a los administradores definir y gestionar países, centros educativos y planes de estudio de forma centralizada. Esto significa que la plataforma puede adaptarse a las particularidades curriculares de cualquier país o región sin necesidad de cambios en el código base.</li>
+                            <li><strong>Localización de Contenido:</strong> Los contenidos curriculares, ejes articuladores y formularios dinámicos se vinculan a cursos específicos dentro de planes de estudio definidos por país. Esto permite que la IA genere planificaciones que son contextualmente relevantes, ya sea para el sistema educativo mexicano, uruguayo o cualquier otro.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Escalabilidad Curricular (Multi-Asignatura y Multi-Nivel):</strong>
+                        <ul class="list-circle list-inside ml-6 mt-1 space-y-1">
+                            <li><strong>Formularios Dinámicos:</strong> El constructor visual de formularios permite a los administradores diseñar interfaces de planificación personalizadas para cualquier asignatura o nivel educativo. Esto significa que PlaneaIA puede expandirse fácilmente más allá de la Educación Física a otras materias (Matemáticas, Lenguaje, Ciencias, etc.) sin reingeniería de la interfaz de usuario.</li>
+                            <li><strong>Asistentes de IA Especializados:</strong> La capacidad de vincular un Asistente de OpenAI específico a cada curso permite "pre-entrenar" a la IA con el contenido curricular de cualquier asignatura o nivel, garantizando la calidad y contextualización de las planificaciones generadas en nuevas áreas.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Escalabilidad Tecnológica:</strong>
+                        <ul class="list-circle list-inside ml-6 mt-1 space-y-1">
+                            <li><strong>Arquitectura Modular (MVC):</strong> La clara separación de responsabilidades entre Modelos, Vistas y Controladores facilita la adición de nuevas funcionalidades y la mejora de las existentes sin afectar el resto del sistema.</li>
+                            <li><strong>Base de Datos Robusta:</strong> El esquema de base de datos está diseñado para manejar grandes volúmenes de datos y relaciones complejas, con la posibilidad de implementar sharding y replicación para un rendimiento óptimo a escala.</li>
+                            <li><strong>API de OpenAI Assistants:</strong> Esta API está diseñada para la escalabilidad, manejando hilos de conversación y recuperación de conocimiento de manera eficiente. La implementación de <i>polling</i> y futuras integraciones con <i>webhooks</i> aseguran una comunicación fluida y reactiva.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Modelo de Negocio Escalable (Freemium):</strong>
+                        <ul class="list-circle list-inside ml-6 mt-1 space-y-1">
+                            <li>El modelo de una planificación gratuita inicial y créditos para uso adicional permite una adopción masiva y un camino claro hacia la monetización a medida que el valor de la plataforma se demuestra a los docentes. Esto facilita la entrada al mercado y el crecimiento de la base de usuarios.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+
+            <article>
+                <h3 class="text-2xl font-semibold text-gray-700 mb-3 flex items-center">
+                    <i class="fas fa-forward list-icon"></i> Visión a Futuro (Próximas Funcionalidades)
+                </h3>
+                <p class="text-gray-600 leading-relaxed mb-4">
+                    Nuestra hoja de ruta incluye funcionalidades clave para profundizar el impacto y la escalabilidad de PlaneaIA:
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="p-4 bg-gray-50 rounded-lg shadow-sm">
+                        <h4 class="font-bold text-lg mb-2 flex items-center"><i class="fas fa-user-graduate text-indigo-500 mr-2"></i> Portal para Estudiantes</h4>
+                        <p class="text-gray-600 text-sm">Funcionalidades para el seguimiento de tareas, progreso y recursos didácticos personalizados.</p>
+                    </div>
+                    <div class="p-4 bg-gray-50 rounded-lg shadow-sm">
+                        <h4 class="font-bold text-lg mb-2 flex items-center"><i class="fas fa-money-check-alt text-purple-500 mr-2"></i> Integración con Pasarelas de Pago</h4>
+                        <p class="text-gray-600 text-sm">Compra de créditos fácil y segura para acceder a más generaciones de planificaciones.</p>
+                    </div>
+                    <div class="p-4 bg-gray-50 rounded-lg shadow-sm">
+                        <h4 class="font-bold text-lg mb-2 flex items-center"><i class="fas fa-chart-line text-teal-500 mr-2"></i> Reportes y Analíticas</h4>
+                        <p class="text-gray-600 text-sm">Visualiza métricas de uso de la plataforma y tendencias en la creación de planificaciones.</p>
+                    </div>
+                    <div class="p-4 bg-gray-50 rounded-lg shadow-sm">
+                        <h4 class="font-bold text-lg mb-2 flex items-center"><i class="fas fa-hands-helping text-orange-500 mr-2"></i> Colaboración entre Docentes</h4>
+                        <p class="text-gray-600 text-sm">Herramientas para compartir y co-crear planificaciones entre colegas.</p>
+                    </div>
+                    <div class="p-4 bg-gray-50 rounded-lg shadow-sm">
+                        <h4 class="font-bold text-lg mb-2 flex items-center"><i class="fas fa-cloud-upload-alt text-green-500 mr-2"></i> Subida de Documentos Curriculares</h4>
+                        <p class="text-gray-600 text-sm">Facilitar a los administradores la carga de documentos para los Vector Stores de IA.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Información del Equipo -->
+        <section class="mb-12 p-8 bg-gray-100 rounded-lg card-shadow">
+            <h2 class="text-3xl font-bold gradient-text mb-6 section-header">
+                <i class="fas fa-users mr-3"></i> Información del Equipo
+            </h2>
+            <div class="space-y-4 text-gray-700 leading-relaxed">
+                <p><strong>Autora del Proyecto:</strong></p>
+                <p class="ml-4"><i class="fas fa-user-circle mr-2"></i> Hilda Lorena Anaya Contreras (México)</p>
+                <p><strong>Colaboración en Desarrollo y Tecnología:</strong></p>
+                <p class="ml-4"><i class="fas fa-code mr-2"></i> Pablo Pignolo (Uruguay)</p>
+                <p><strong>Asistencia en el Proceso de Desarrollo:</strong></p>
+                <p class="ml-4"><i class="fas fa-robot mr-2"></i> Gemini 2.5 (Modelo de Lenguaje Grande de Google)</p>
+            </div>
+        </section>
+
+        <!-- Evidencia de Apoyo -->
+        <section class="p-8 bg-white rounded-lg card-shadow">
+            <h2 class="text-3xl font-bold gradient-text mb-6 section-header">
+                <i class="fas fa-link mr-3"></i> Evidencia de Apoyo
+            </h2>
+            <div class="space-y-4 text-gray-700 leading-relaxed">
+                <p><strong>Video Pitch / Demostración (2 minutos):</strong></p>
+                <p class="ml-4"><i class="fas fa-video mr-2"></i> <a href="https://www.youtube.com/watch?v=3o96zyBk0ys&pp=0gcJCfwAo7VqN5tD" target="_blank" class="text-blue-600 hover:underline">LORE ACA PONEMOS LINK A UN VIDEO TUYO CON EL PITCH</a></p>
+                <p><strong>Página de Aterrizaje (Landing Page) del Proyecto:</strong></p>
+                <p class="ml-4"><i class="fas fa-external-link-alt mr-2"></i> <a href="https://planeacioneducativa.ironplatform.com.uy" target="_blank" class="text-blue-600 hover:underline">VER VERSION DEMO COMPLETA ONLINE</a></p>
+                <p><strong>Más detalles:</strong></p>
+                <ul class="list-disc list-inside ml-4 mt-2 space-y-1 text-gray-600">
+                    <li><i class="fas fa-file-alt mr-2"></i> <a href="https://www.youtube.com/watch?v=jxvidqNMYhA" target="_blank" class="text-blue-600 hover:underline">LORE ACA PODEMOS INCLUIR UNideo de ejemplo o demo adicional</a></li>
+                    <li><i class="fas fa-code-branch mr-2"></i> <a href="https://aprendiendoarduino.wordpress.com/2019/09/01/repositorios-publicos-en-github/" target="_blank" class="text-blue-600 hover:underline">LORE ACA VA EL Repositorio de código github</a></li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 mt-12">
+        <div class="container mx-auto px-6 text-center">
+            <p class="font-roboto text-gray-400">&copy; <?= date('Y') ?> PlaneaIA. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
