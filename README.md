@@ -181,6 +181,9 @@ This project is distributed under the MIT License. See `LICENSE` for more inform
 
 ## 📧 Contact
 
-Pablo Pignolo & Lorena Anaya - pablo.pignolo@gmail.com - https://uy.linkedin.com/in/pablopignolo
+Pablo Pignolo & Lorena Anaya - pablo.pignolo@gmail.com - [https://uy.linkedin.com/in/pablopignolo](https://uy.linkedin.com/in/pablopignolo)
+
 Project Link: [https://github.com/litoxperaloca/tuukul-ba-ax](https://github.com/litoxperaloca/tuukul-ba-ax)
+
+Demo online: [https://tuukulbaax.ironplatform.com.uy/](https://tuukulbaax.ironplatform.com.uy/)
 
